@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Usuario</title>
 </head>
-<body>
+<body align="Center" background="genshin11.jpg" style="color: aliceblue;">
     <form action="">
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" placeholder=" Ingrese su Nombre Completo" aria-required="true"  /><br>
-        <label for="E-mail">E-mail</label>
-        <input type="email" id="E-mail" placeholder=" Ingrese su E-mail" aria-required="true"  /><br>
-        <label for="Contraseña">Contraseña</label>
-        <input type="password" id="Contraseña" placeholder="Ingrese su Contraseña " aria-required="true" /><br>
-        <label for="Repita la Contraseña">Repita la Contraseña</label>
-        <input type="password" id="Repita la Contraseña" placeholder=" Repita la Contraseña "aria-required="true" aria-checked="true" /><br>
-        <button type="submit">Registrarse</button> <button type="reset">Restablecer</button>
+        <label for="nombre">Nombre  Completo</label><br>
+        <input type="text" id="nombre" placeholder=" Ingrese su Nombre Completo" aria-required="true"  /><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" placeholder=" Ingrese su E-mail" aria-required="true"  /><br>
+        <label for="contraseña">Contraseña</label><br>
+        <input type="password" id="contraseña" placeholder="Ingrese su Contraseña " aria-required="true" /><br>
+        <label >Sexo</label><br>
+        <input type="radio" name="sexo" aria-required="true">Masculino
+        <input type="radio" name="sexo"aria-required="true">Femenino<br>
+        <label for="">Fecha de Nacimiento</label><br><br>
+        <input type="date"aria-required="true"><br><br>
+        <label for="">Pais</label>
+        <select name="" id=""aria-required="true">
+            <option value="">Seleccionar</option>
+            <option value="">Venezuela</option>
+            <option value="">Colombia</option>
+            <option value="">Peru</option>
+            <option value="">Argentina</option>
+            <option value="">Suecia</option>
+        </select><br><br>
+        <button type="submit">Registrarse</button> <button type="reset">Restablecer</button><br>
     </form>
     
 </body>
